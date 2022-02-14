@@ -1,0 +1,28 @@
+{
+  "name": "tracing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "a": "nodemon serviceA.js",
+    "b": "nodemon serviceB.js",
+    "c": "nodemon serviceC.js",
+    "d": "nodemon serviceD.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@opentelemetry/api": "^1.0.4",
+    "@opentelemetry/auto-instrumentations-node": "^0.27.3",
+    "@opentelemetry/exporter-jaeger": "^1.0.1",
+    "@opentelemetry/instrumentation-express": "^0.28.0",
+    "@opentelemetry/instrumentation-http": "^0.27.0",
+    "@opentelemetry/sdk-node": "^0.27.0",
+    "axios": "^0.26.0",
+    "express": "^4.17.2",
+    "node-uuid": "^1.4.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
